@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buy Your Movie Tickets Here!</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Buy Your Movie Tickets Here!</h1>
+      <form class="row">
+        <div class="form-group col-sm-4">
+          <h3>Movie:</h3>
+          <select id="titles" class="form-control">
+            <option>The Secret Life of Pets</option>
+            <option>Ben-Hur</option>
+            <option>Jurassic Park</option>
+            <option>Bad Moms</option>
+            <option>Kubo and the Two Strings</option>
+          </select>
+        </div>
+        <div class="form-group col-sm-4">
+          <h3>Time:</h3>
+          <select id="times" class="form-control">
+            <option value="4">11 am</option>
+            <option value="4">1 pm</option>
+            <option value="4">3 pm</option>
+            <option value="7">5 pm</option>
+            <option value="7">7 pm</option>
+            <option value="7">9 pm</option>
+          </select>
+        </div>
+        <div class="form-group col-sm-4">
+          <h3>Age Group:</h3>
+          <select id="ages" class="form-control">
+            <option value="3">Adult</option>
+            <option value="1">Child</option>
+            <option value="1">Senior</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-danger form-control">Buy Now</button>
+      </form>
+      <h3 class="ticket-price">
+      </h3>
+    </div>
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>
