@@ -39,10 +39,12 @@
             <option value="1">Senior</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-danger form-control">Buy Now</button>
+        <button type="submit" class="btn btn-danger form-control">Add Ticket</button>
       </form>
-      <h3 class="ticket-price">
-      </h3>
+      <ul id="tickets">
+      </ul>
+      <button class="btn btn-primary form-control" id="buyNow">Confirm Purchase of <span id="totalPrice"></span></button>
+      <div class="receipt"></div>
     </div>
   <script src="js/jquery-3.1.0.js"></script>
   <script src="js/scripts.js"></script>
